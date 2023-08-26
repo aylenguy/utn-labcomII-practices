@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Simple</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        table {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Alimento</th>
+                <th>Calorías</th>
+                <th>Grasas</th>
+                <th>Proteínas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Banana</td>
+                <td>90</td>
+                <td>0,3</td>
+                <td>1.0</td>
+            </tr>
+            <tr>
+                <td>Frutilla</td>
+                <td>37</td>
+                <td>0,5</td>
+                <td>0.8</td>
+            </tr>
+            <tr>
+                <td>Arandano</td>
+                <td>49</td>
+                <td>0,2</td>
+                <td>0,4</td>
+            </tr>
+        </tbody>
+        
+        
+        
+    </table>
+    <br>
+      <table>
+        <thead>
+            <tr>
+                <th>Horarios<s/th>
+                <th>Lunes</th>
+                <th colspan="2">Martes y Miércoles</th>
+                <th>Páginas de ayuda</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">8:00hs - 10:30hs</td>
+                <td>Programación</td>
+                <td colspan="2">inglés y estadística</td>
+                <td><a href="https://photomath.com/es"target="_blank">Photomath</a>
+            </tr>
+            <tr>
+                <td>Contabilidad</td>
+                <td colspan="2">Matemáticas</td>
+                <td><a href="https://es.wikipedia.org/wiki/Wikipedia:Portada"target="_blank">Wikipedia</a>
+            </tr>
+            <tr>
+                <td>10:45hs - 12:00hs</td>
+                <td rowspan="2">Estadística</td>
+                <td>Programación</td>
+                <td>ingles</td>
+                <td><a href="https://dictionary.cambridge.org/es/translate/"target="_blank">Traductor</a>
+            </tr>
+            <tr>
+                <td>12:00hs - 13:30hs</td>
+                <td>Inglés</td>
+                <td>Matemáticas</td>
+                <td><a href="https://www.canva.com/es_419/"target="_blank">Canva</a>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Última fila</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
